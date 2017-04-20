@@ -1,0 +1,30 @@
+[33mcommit 99ccf22b492a1358eb806c556c0ee2007db404da[m
+Author: Nenad <norlovic@gmail.com>
+Date:   Thu Apr 20 19:47:56 2017 +0200
+
+    Kreirane Klase Za Zadatke
+
+[33mcommit 3c2590b93b678f4c839fb8a2ab240ddfa7fd010e[m
+Author: Nenad <norlovic@gmail.com>
+Date:   Thu Apr 20 19:30:50 2017 +0200
+
+    Uradjena Gradle
+
+[33mcommit 83103cd6b82d1c119e21c3955016fadd15af5845[m
+Merge: 92647d7 9db93f4
+Author: Nenad <norlovic@gmail.com>
+Date:   Thu Apr 20 19:16:29 2017 +0200
+
+    Merge branch 'master' of https://github.com/nikolaJapundzic/ZadatakKnjigaOblast
+
+[33mcommit 92647d756362098844c3d13f32cd2b3f212a74c5[m
+Author: Nenad <norlovic@gmail.com>
+Date:   Thu Apr 20 19:03:14 2017 +0200
+
+    Bio je problem
+
+[33mcommit 9db93f42348e642b8d141ed29ed9e7f291290834[m
+Author: nikolaJapundzic <nikola_japundzic@outlook.com>
+Date:   Thu Apr 20 18:44:39 2017 +0200
+
+    Initial commit
