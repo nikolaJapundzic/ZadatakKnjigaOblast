@@ -70,6 +70,18 @@ public class Knjiga {
         this.datum = datum;
     }
 
+    public ForeignCollection<Oblast> getOblasti() {
+        return oblasti;
+    }
+
+    public void setOblasti(ForeignCollection<Oblast> oblasti) {
+        this.oblasti = oblasti;
+    }
+
+    public int getId() {
+        return id;
+    }
+
     @Override
     public String toString() {
         return "Knjiga{" +
