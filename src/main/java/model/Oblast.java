@@ -27,9 +27,10 @@ public class Oblast {
 
     }
 
-    public Oblast(String naziv, int pocetnaStrana){
+    public Oblast(String naziv, int pocetnaStrana, Knjiga knjiga){
         this.naziv = naziv;
         this.pocetnaStrana = pocetnaStrana;
+        this.knjiga = knjiga;
     }
 
     public String getNaziv() {

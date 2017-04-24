@@ -17,30 +17,26 @@ public class Knjiga {
     public static final String POLJE_BROJ_STRANA = "broj_strana";
     public static final String POLJE_DATUM_IZDAVANJA = "datum_izdavanja";
 
-    //private int id;
-    private String naslov;
-    private int brojStrana;
-    private Date datum;
 
     private boolean prisutna;
 
     @DatabaseField(generatedId = true)
     private int id;
     @DatabaseField(columnName = POLJE_NASLOV,canBeNull = false)
-    private Date polje_naslov;
+    private String naslov;
     @DatabaseField(columnName = POLJE_BROJ_STRANA,canBeNull = false)
-    private String broj_strana;
+    private int brojStrana;
     @DatabaseField(columnName = POLJE_DATUM_IZDAVANJA,canBeNull = false)
-    private String datum_izdavanja;
+    private Date datum;
 
-    @ForeignCollectionField(foreignFieldName = "knjiga",eager=false,maxEagerLevel = 1)
+    @ForeignCollectionField(foreignFieldName = "knjiga"/*,eager=false,maxEagerLevel = 1*/)
     private ForeignCollection<Oblast> oblasti;
 
-    Knjiga(){
+    public Knjiga(){
 
     }
 
-    Knjiga(String naslov, int brojStrana, Date datum){
+    public Knjiga(String naslov, int brojStrana, Date datum){
         this.naslov = naslov;
         this.brojStrana = brojStrana;
         this.datum = datum;
